@@ -2,9 +2,16 @@
   "compilerOptions": {
     "outDir": "../out-tsc/spec",
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "baseUrl": "",
     "allowJs": true,
-    "types": ["jest"]
-  }
+    "types": ["jest, node"]
+  },
+  "files": [
+    "polyfills.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ]
 }

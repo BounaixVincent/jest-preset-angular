@@ -12,6 +12,7 @@ module.exports = {
   },
   transform: {
     '^.+\\.(ts|js|html)$': 'ts-jest',
+    "^.+\\.(ts|html)$": "<rootDir>/node_modules/jest-preset-angular/preprocessor.js",
   },
   testMatch: [
     '**/__tests__/**/*.+(ts|js)?(x)',
@@ -30,5 +31,5 @@ module.exports = {
   snapshotSerializers: [
     'jest-preset-angular/AngularSnapshotSerializer.js',
     'jest-preset-angular/HTMLCommentSerializer.js',
-  ],
+  ]
 }
