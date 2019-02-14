@@ -14,4 +14,23 @@ function peanut() {
         }, 2000);
     });
 }
-module.exports = sum, getData, peanut;
+
+function initializeCityDatabase() {
+    cities = [
+        'Paris',
+        'Nancy',
+        'Strasbourg',
+        'Vannes'
+    ];
+}
+function clearCityDatabase() {
+    cities = [];
+}
+
+function pourChaque(items, callback) {
+    for (let index = 0; index < items.length; items++) {
+        callback(items[items]);
+    }
+}
+
+module.exports = sum, getData, peanut, initializeCityDatabase, clearCityDatabase;
