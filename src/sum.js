@@ -1,36 +1,38 @@
-function sum(a, b) {
-    return a + b;
-}
+let cities = [];
 
-async function getData() {
+
+exports.sum = (a, b) => {
+    return a + b;
+};
+
+exports.getData = async () => {
     let data = await peanut();
     return data;
-}
+};
 
-function peanut() {
+exports.peanut = () => {
     return new Promise(resolve => {
         setTimeout(() => {
             resolve('peanut butter');
         }, 2000);
     });
-}
+};
 
-function initializeCityDatabase() {
+exports.initializeCityDatabase = () => {
     cities = [
         'Paris',
         'Nancy',
         'Strasbourg',
         'Vannes'
     ];
-}
-function clearCityDatabase() {
+};
+
+exports.clearCityDatabase = () => {
     cities = [];
-}
+};
 
-function pourChaque(items, callback) {
-    for (let index = 0; index < items.length; items++) {
-        callback(items[items]);
+exports.pourChaque = (items, callback) => {
+    for (let index = 0; index < items.length; index++) {
+        callback(items[index]);
     }
-}
-
-module.exports = sum, getData, peanut, initializeCityDatabase, clearCityDatabase;
+};

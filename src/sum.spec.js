@@ -1,10 +1,10 @@
-const sum = require('./sum');
+const model = require('./sum');
 
 
 
 describe('Tests for a tutorial', () => {
     it('adds 1 + 2 to equal 3', () => {
-        expect(sum(1, 2)).toBe(3);
+        expect(model.sum(1, 2)).toBe(3);
     });
 
     it('object assignment', () => {
