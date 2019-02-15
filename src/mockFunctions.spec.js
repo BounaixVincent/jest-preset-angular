@@ -111,13 +111,39 @@ describe('Mock Functions', () => {
 
     describe('Mocking Modules', () => {
 
-        it.only('should fetch users', () => {
+        it.skip('should fetch users', () => {
             const users = [{name: 'Bob'}];
             const resp = {data: users};
             axios.get.mockResolvedValue(resp);
             // or you could use the following depending on your use case:
            // axios.get.mockImplementation(() => Promise.resolve(resp));
             return Users.all().then(resp => expect(resp.data).toEqual(users));
+        });
+    });
+
+    describe('Mock Implementations', () => {
+
+        const myMock = jest
+            .fn(() => 'default')
+            .mockImplementationOnce(() => true)
+            .mockImplementationOnce(() => false);
+
+        it('should test mock implementations', () => {
+            /*myMock((err, val) => console.log(true));
+            myMock((err, val) => console(false));*/
+            console.log(myMock(), myMock(), myMock(), myMock());
+        });
+    });
+
+    describe.only('Custom Matchers', () => {
+        const mockCallback = jest.fn(x => 42 + x);
+        beforeEach(() => {
+            model.pourChaque([0, 1], mockCallback);
+        });
+        it('should test some custom matchers supplied by Jest', () => {
+            expect(mockCallback).toBeCalled();
+            expect(mockCallback).toBeCalledWith(0);
+            expect(mockCallback).lastCalledWith(1);
         });
     });
 
