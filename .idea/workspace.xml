@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc22e537-9aea-47d5-b80c-8a8c7aa1ccce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__mocks__/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/__mocks__/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asyncExample.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/asyncExample.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asynchronousCode.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/asynchronousCode.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mockFunctions.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mockFunctions.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/request.js" afterDir="false" />
-    </list>
+    <list default="true" id="bc22e537-9aea-47d5-b80c-8a8c7aa1ccce" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -60,11 +52,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__tests__/timerGame-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="787">
               <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sound-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sound-player-consumer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/__mocks__/sound-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__tests__/sound-player-consumer.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__tests__/playSound.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -104,6 +144,11 @@
         <option value="$PROJECT_DIR$/src/infiniteTimerGame.js" />
         <option value="$PROJECT_DIR$/__tests__/infiniteTimerGame-test.js" />
         <option value="$PROJECT_DIR$/__tests__/timerGame-test.js" />
+        <option value="$PROJECT_DIR$/src/sound-player.js" />
+        <option value="$PROJECT_DIR$/src/sound-player-consumer.js" />
+        <option value="$PROJECT_DIR$/__tests__/playSound.spec.js" />
+        <option value="$PROJECT_DIR$/__mocks__/sound-player.js" />
+        <option value="$PROJECT_DIR$/__tests__/sound-player-consumer.spec.js" />
       </list>
     </option>
   </component>
@@ -111,7 +156,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
+    <option name="x" value="-144" />
+    <option name="y" value="-1080" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -172,17 +218,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="Mock Functions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Manual Mock.We can check if the consumer called the class constructor">
+    <configuration name="Manual Mock" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/mockFunctions.spec.js" />
+      <test-file value="$PROJECT_DIR$/__tests__/sound-player-consumer.spec.js" />
       <test-names>
-        <test-name value="Mock Functions" />
+        <test-name value="Manual Mock" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Manual Mock.We can check if the consumer called a method on the class instance" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/sound-player-consumer.spec.js" />
+      <test-names>
+        <test-name value="Manual Mock" />
+        <test-name value="We can check if the consumer called a method on the class instance" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Manual Mock.We can check if the consumer called the class constructor" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/sound-player-consumer.spec.js" />
+      <test-names>
+        <test-name value="Manual Mock" />
+        <test-name value="We can check if the consumer called the class constructor" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -199,32 +273,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="works with async/await" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/asyncExample.spec.js" />
-      <test-names>
-        <test-name value="works with async/await" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="works with promises" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/asyncExample.spec.js" />
-      <test-names>
-        <test-name value="works with promises" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -237,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Manual Mock.We can check if the consumer called the class constructor" />
+        <item itemvalue="Jest.Manual Mock" />
+        <item itemvalue="Jest.Manual Mock.We can check if the consumer called a method on the class instance" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.Tests for a tutorial" />
-        <item itemvalue="Jest.works with promises" />
-        <item itemvalue="Jest.works with async/await" />
-        <item itemvalue="Jest.Mock Functions" />
       </list>
     </recent_temporary>
   </component>
@@ -259,44 +307,44 @@
       <workItem from="1550133872805" duration="22068000" />
       <workItem from="1550236661150" duration="4711000" />
       <workItem from="1551084577006" duration="6478000" />
-      <workItem from="1551172052619" duration="1144000" />
+      <workItem from="1551172052619" duration="4291000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="works_with_async_await - 2019.02.25 at 13h 26m 19s.xml">
-      <configuration name="works with async/await" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock - 2019.02.26 at 11h 34m 08s.xml">
+      <configuration name="Manual Mock" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Mock_Functions - 2019.02.25 at 13h 34m 04s.xml">
-      <configuration name="Mock Functions" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_a_method_on_the_class_instance - 2019.02.26 at 11h 37m 47s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called a method on the class instance" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Mock_Functions - 2019.02.25 at 13h 35m 15s.xml">
-      <configuration name="Mock Functions" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_a_method_on_the_class_instance - 2019.02.26 at 11h 39m 17s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called a method on the class instance" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Mock_Functions - 2019.02.25 at 13h 35m 44s.xml">
-      <configuration name="Mock Functions" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_a_method_on_the_class_instance - 2019.02.26 at 11h 39m 48s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called a method on the class instance" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="works_with_async_await - 2019.02.25 at 13h 43m 51s.xml">
-      <configuration name="works with async/await" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_a_method_on_the_class_instance - 2019.02.26 at 11h 40m 18s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called a method on the class instance" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="works_with_promises - 2019.02.25 at 13h 43m 58s.xml">
-      <configuration name="works with promises" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_a_method_on_the_class_instance - 2019.02.26 at 11h 41m 06s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called a method on the class instance" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="works_with_async_await - 2019.02.25 at 13h 44m 21s.xml">
-      <configuration name="works with async/await" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock - 2019.02.26 at 11h 42m 33s.xml">
+      <configuration name="Manual Mock" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="works_with_promises - 2019.02.25 at 13h 44m 56s.xml">
-      <configuration name="works with promises" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_the_class_constructor - 2019.02.26 at 11h 42m 56s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called the class constructor" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Tests_for_a_tutorial - 2019.02.25 at 14h 03m 57s.xml">
-      <configuration name="Tests for a tutorial" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_the_class_constructor - 2019.02.26 at 11h 45m 26s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called the class constructor" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Tests_for_a_tutorial - 2019.02.25 at 14h 45m 44s.xml">
-      <configuration name="Tests for a tutorial" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Manual_Mock_We_can_check_if_the_consumer_called_the_class_constructor - 2019.02.26 at 11h 45m 44s.xml">
+      <configuration name="Manual Mock.We can check if the consumer called the class constructor" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50302000" />
+    <option name="totallyTimeSpent" value="53449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,7 +356,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-144" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.21800947" />
@@ -316,7 +364,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5016835" side_tool="true" weight="0.24954791" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +372,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3158416" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3158416" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -568,8 +616,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__tests__/timerGame-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="787">
           <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/playSound.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sound-player-consumer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/sound-player-consumer.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sound-player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__mocks__/sound-player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
