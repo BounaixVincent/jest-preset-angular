@@ -131,11 +131,11 @@ describe('Mock Functions', () => {
         it('should test mock implementations', () => {
             /*myMock((err, val) => console.log(true));
             myMock((err, val) => console(false));*/
-            console.log(myMock(), myMock(), myMock(), myMock());
+            // console.log(myMock(), myMock(), myMock(), myMock());
         });
     });
 
-    describe.only('Custom Matchers', () => {
+    describe('Custom Matchers', () => {
         const mockCallback = jest.fn(x => 42 + x);
         beforeEach(() => {
             model.pourChaque([0, 1], mockCallback);

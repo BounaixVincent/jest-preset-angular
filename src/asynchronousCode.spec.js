@@ -13,7 +13,7 @@ describe('Testing Asynchronous Code', () => {
             const callback = (data) => {
                 expect(data).toBe('peanut butter');
                 done();
-            }
+            };
 
             fetchData(callback);
         });
@@ -42,7 +42,7 @@ describe('Testing Asynchronous Code', () => {
         async function getData() {
             let data = await myMock();
             return data;
-        };
+        }
 
         it('the data is peanut butter', async () => {
             expect.assertions(1);

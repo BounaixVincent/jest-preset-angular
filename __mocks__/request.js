@@ -3,7 +3,7 @@ const users = {
     5: {name: 'Paul'},
 };
 
-exports.request = (url) => {
+export default function request(url) {
     return new Promise((resolve, reject) => {
         const userID = parseInt(url.substr('/users/'.length), 10);
         process.nextTick(() =>
@@ -14,4 +14,4 @@ exports.request = (url) => {
                 }),
         );
     });
-}
+};

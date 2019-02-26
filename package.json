@@ -47,7 +47,7 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "test": "jest",
+    "test": "jest --verbose",
     "test:ci": "jest -i"
   }
 }
