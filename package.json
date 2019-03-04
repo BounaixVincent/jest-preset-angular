@@ -48,6 +48,7 @@
     "build": "tsc",
     "prepare": "npm run build",
     "test": "jest --verbose",
-    "test:ci": "jest -i"
+    "test:ci": "jest -i",
+    "coverage": "jest --coverage"
   }
 }

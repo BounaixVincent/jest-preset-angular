@@ -9,12 +9,12 @@ describe('Manual Mock', () => {
         mockPlaySoundFile.mockClear();
     });
 
-    it('We can check if the consumer called the class constructor', () => {
+    it('can check if the consumer called the class constructor', () => {
         const soundPlayerConsumer = new SoundPlayerConsumer();
         expect(SoundPlayer).toHaveBeenCalledTimes(1);
     });
 
-    it('We can check if the consumer called a method on the class instance', () => {
+    it('can check if the consumer called a method on the class instance', () => {
         const soundPlayerConsumer = new SoundPlayerConsumer();
         const coolSoundFileName = 'song.mp3';
         soundPlayerConsumer.playSomethingCool();

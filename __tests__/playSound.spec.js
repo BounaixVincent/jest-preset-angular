@@ -7,12 +7,12 @@ beforeEach(() => {
     SoundPlayer.mockClear();
 });
 
-it('We can check if the consumer called the class constructor', () => {
+it('can check if the consumer called the class constructor', () => {
     const soundPlayerConsumer = new SoundPlayerConsumer();
     expect(SoundPlayer).toHaveBeenCalledTimes(1);
 });
 
-it('We can check if the consumer called a method on the class instance', () => {
+it('can check if the consumer called a method on the class instance', () => {
     // Show that mockClear() is working:
     expect(SoundPlayer).not.toHaveBeenCalled();
 
